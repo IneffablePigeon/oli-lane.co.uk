@@ -20,8 +20,7 @@ body{
 
 header{
 	font-family: 'Crimson Text', serif;
-	padding: 0 0 20px;
-	border-bottom: 1px solid #bbb0a3;
+	padding: 0 0 1.5em;
 	width: 180px;
 }
 
@@ -68,13 +67,12 @@ header>span{
 #sidebar>nav {
 	clear: both;
 	text-align: right;
-	padding-right: 40px;
-	margin-top: 1.5em;
 }
 
 #sidebar nav ul {
 	list-style: none;
 	padding: 0;
+	margin: 0;
 }
 
 #sidebar nav li {
@@ -94,7 +92,19 @@ header>span{
 	color: #7d60a8;
 }
 
+.sidebar-element {
+    border-top: 1px solid #bbb0a3;
+    text-align: center;
+    margin-right: 40px;
+	padding: 1.5em 0;
+}
 
+#sidebar .icons {
+}
+
+#sidebar .icons a {  
+    margin: 10px 4px;	
+}
 
 
 
@@ -116,7 +126,11 @@ section#content {
 
 
 
-/*--------------RESET/FIXES------------*/
+
+
+
+
+/*--------------FIXES------------*/
 
 /* For modern browsers */
 .clearfix:before,

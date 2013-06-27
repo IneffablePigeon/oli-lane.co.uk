@@ -1,0 +1,49 @@
+.icons a {
+    display: inline-block;
+    width: 24px;
+    height: 24px;
+    margin: 10px;
+    vertical-align: middle;
+    -o-transition: all .3s;
+    -moz-transition: all .3s;
+    -webkit-transition: all .3s;
+    -ms-transition: all .3s;
+}
+ 
+.icons a.twitter { background: url(twitter.png) left top no-repeat; }
+.icons a.dribbble { background: url(dribbble.png) left top no-repeat; }
+.icons a.rss { background: url(rss.png) left top no-repeat; }
+.icons a.pinterest { background: url(pinterest.png) left top no-repeat; }
+.icons a.digg { background: url(digg.png) left top no-repeat; }
+.icons a.flickr { background: url(flickr.png) left top no-repeat; }
+.icons a.forrst { background: url(forrst.png) left top no-repeat; }
+.icons a.vimeo { background: url(vimeo.png) left top no-repeat; }
+.icons a.reddit { background: url(reddit.png) left top no-repeat; }
+.icons a.linkedin { background: url(linkedin.png) left top no-repeat; }
+.icons a.facebook { background: url(facebook.png) left top no-repeat; }
+.icons a.paypal { background: url(paypal.png) left top no-repeat; }
+.icons a.stumbleupon { background: url(stumbleupon.png) left top no-repeat; }
+.icons a.email { background: url(email.png) left top no-repeat; }
+.icons a.deviantart { background: url(deviantart.png) left top no-repeat; }
+.icons a.netvibes { background: url(netvibes.png) left top no-repeat; }
+.icons a.yahoo { background: url(yahoo.png) left top no-repeat; }
+.icons a.github { background: url(github.png) left top no-repeat; }
+.icons a.addthis { background: url(addthis.png) left top no-repeat; }
+.icons a.behance { background: url(behance.png) left top no-repeat; }
+.icons a.blogger { background: url(blogger.png) left top no-repeat; }
+.icons a.slashdot { background: url(slashdot.png) left top no-repeat; }
+.icons a.technorati { background: url(technorati.png) left top no-repeat; }
+.icons a.googleplus { background: url(googleplus.png) left top no-repeat; }
+.icons a.apple { background: url(apple.png) left top no-repeat; }
+.icons a.myspace { background: url(myspace.png) left top no-repeat; }
+.icons a.sharethis { background: url(sharethis.png) left top no-repeat; }
+.icons a.yelp { background: url(yelp.png) left top no-repeat; }
+.icons a.delicious { background: url(delicious.png) left top no-repeat; }
+.icons a.lastfm { background: url(lastfm.png) left top no-repeat; }
+.icons a.youtube { background: url(youtube.png) left top no-repeat; }
+.icons a.skype { background: url(skype.png) left top no-repeat; }
+.icons a.tumblr { background: url(tumblr.png) left top no-repeat; }
+.icons a.aim { background: url(aim.png) left top no-repeat; }
+.icons a.google { background: url(google.png) left top no-repeat; }
+ 
+.icons a:hover { background-position: left -34px; }
