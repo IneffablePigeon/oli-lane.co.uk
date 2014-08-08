@@ -15,6 +15,10 @@ a {
 	color: #888888;
 }
 
+p{
+	line-height: 1.5;
+}
+
 /*--------------HEADER-------------------*/
 
 header{
@@ -74,6 +78,7 @@ nav.upfront-nav li {
 
 nav.upfront-nav i {
 	margin-bottom: 10px;
+	text-shadow: 2px 1px 0px #1d9d74, 5px 4px 0px rgba(0, 0, 0, 0.15);
 }
 
 
@@ -105,7 +110,15 @@ nav.upfront-nav i {
 }
 
 .showcase-r {
-	margin: 40px 0;
+	margin: 60px 0;
+}
+
+.showcase-r p:first-of-type {
+	margin-top: 0;
+}
+
+.showcase-l p:first-of-type {
+	margin-top: 0;
 }
 
 .showcase-l p {
