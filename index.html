@@ -1,5 +1,6 @@
 <html>
 	<head>
+
 		<!--
 		/**
 		 * @license
@@ -21,19 +22,25 @@
 		 * 
 		 * © 2014 MyFonts Inc
 		*/
-
 		-->
 		<link rel="stylesheet" type="text/css" href="/fonts/MyFontsWebfontsKit.css">
 
 		<link rel="stylesheet" type="text/css" href="/style.css" media="all">
 		<link rel="stylesheet" type="text/css" href="/normalise.css" media="all">
+
 		<link href='http://fonts.googleapis.com/css?family=Lato' rel='stylesheet' type='text/css'>
+		<link rel="stylesheet" href="assets/font-awesome/css/font-awesome.min.css">
+
 		<!--[if lt IE 9]>
 		     <script src="html5shiv.js"></script>
 		<![endif]-->
+
+		<script src="js/bind-polyfill.min.js"></script>
+		<script src="js/smooth-scroll.min.js"></script>
+
 		<link rel="shortcut icon" href="/favicon.ico" />
-		<link rel="stylesheet" href="assets/font-awesome/css/font-awesome.min.css">
 		<title>Oli Lane</title>
+
 	</head>
 
 	<body>
@@ -48,7 +55,7 @@
 			<nav class="upfront-nav clearfix">
 				<ul>
 					<li>
-						<a href="/cs">
+						<a data-scroll href="#code">
 							<i class="fa fa-code fa-fw fa-3x"></i>Code
 						</a>
 					</li>
@@ -63,8 +70,13 @@
 						</a>
 					</li>
 					<li>
-						<a href="/blog">
+						<a href="/resume.pdf">
 							<i class="fa fa-bars fa-fw fa-3x"></i>R&eacute;sum&eacute;
+						</a>
+					</li>
+					<li>
+						<a data-scroll href="#contact">
+							<i class="fa fa-pencil fa-fw fa-3x"></i>Contact
 						</a>
 					</li>
 				</ul>
@@ -75,7 +87,7 @@
 		<div id="content">
 			<div id="wrapper" class="clearfix">
 
-				<div class="content-section clearfix">
+				<div id="code" class="content-section clearfix">
 					<h2>Code</h2>
 					<p>
 						Most of my code is open source and hosted on <a href="http://www.github.com/olane">GitHub</a>.
@@ -83,7 +95,7 @@
 					<div class="showcase-l clearfix">	
 						<img class="showcase-item" src="/img/redgate-men.png" />
 						<p>
-							This summer I did a software engineering internship at <a href="http://www.red-gate.com">Red Gate</a>, working on DevOps, their internal tools team.
+							This summer I did a software engineering internship at <a href="http://www.red-gate.com">Red Gate</a>, working in DevOps, their internal tools team.
 						</p>
 						<p>
 							I mainly worked on the rollout of a new sales system, and various improvements to back-end infrastucture.
@@ -120,28 +132,31 @@
 					</div>
 				</div>
 
-
-				<div class="content-section clearfix">
-					<h2>Music</h2>
-					<p>Lorem ipsum dolor amet</p>
+				<div id="contact" class="content-section clearfix">
+					<h2>Contact</h2>
+					<ul>
+						<li><a href="mailto:ojgl2@cam.ac.uk">
+							<i class="fa fa-envelope fa-fw"></i>Email
+						</a></li>
+						<li><a href="http://twitter.com/olilane">
+							<i class="fa fa-twitter fa-fw"></i>Twitter
+						</a></li>
+						<li><a href="http://uk.linkedin.com/in/olilane">
+							<i class="fa fa-linkedin fa-fw"></i>LinkedIn
+						</a></li>
+					</ul>
 				</div>
-
-
-				<div class="content-section clearfix">
-					<h2>Blog</h2>
-					<p>Lorem ipsum dolor amet</p>
-				</div>
-
-				<div class="content-section clearfix">
-					<h2>R&eacute;sum&eacute;</h2>
-					<p>Lorem ipsum dolor amet</p>
-				</div>
-
-				<ul id="contact">
-					<a href="mailto:ojgl2@cam.ac.uk">Email</a>
-					<a href="http://uk.linkedin.com/in/olilane">LinkedIn</a>
-				</ul>
 			</div>
 		</div>
+
+		<script type="text/javascript">
+    		smoothScroll.init({
+			    speed: 800, // How fast to complete the scroll in milliseconds
+			    easing: 'easeInOutCubic', 
+			    updateURL: true, 
+			    offset: 0 // How far to offset the scrolling anchor location in pixels
+			});
+		</script>
+
 	</body>
 </html>
