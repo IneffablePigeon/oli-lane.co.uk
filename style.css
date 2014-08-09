@@ -64,7 +64,7 @@ header .jumbo {
 	list-style: none;
 	padding: 0;
 	margin: 0 auto;
-	width: 420px; /* 140 x number of items */
+	width: 560px; /* 140 x number of items */
 }
 
 .upfront-nav li {
