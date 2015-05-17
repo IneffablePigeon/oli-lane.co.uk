@@ -28,8 +28,8 @@ function generateMaze(width, height) {
 
     var buffer = 0;
 
-    if(x <= buffer || x >= width-buffer || 
-       y <= buffer || y >= height-buffer ){
+    if(x < buffer || x > width-buffer || 
+       y < buffer || y > height-buffer ){
       traps[i] = true;
     }
     else{
