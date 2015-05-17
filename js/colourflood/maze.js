@@ -26,7 +26,7 @@ function generateMaze(width, height) {
     //   traps[i] = false;
     // }
 
-    var buffer = 2;
+    var buffer = 0;
 
     if(x <= buffer || x >= width-buffer || 
        y <= buffer || y >= height-buffer ){
