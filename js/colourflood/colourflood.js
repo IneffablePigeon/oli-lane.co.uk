@@ -1,7 +1,7 @@
 
 
 var width = window.innerWidth,
-    height = 500;
+    height = window.innerHeight;
 
 var N = 1 << 0,
     S = 1 << 1,
@@ -11,7 +11,7 @@ var N = 1 << 0,
 var canvas = d3.select("#header-canvas");
 
 canvas.attr("width", width)
-    .attr("height", height);
+      .attr("height", height);
 
 var cells,
     context = canvas.node().getContext("2d"),
@@ -44,7 +44,9 @@ function exploreFrontier() {
       i1,
       d0 = distance[i0],
       d1 = d0 + .25,
-      color = d3.hsl((d0)/5 % 360, Math.pow(Math.E, -d0 * 0.0005), 1 - 0.5 * Math.pow(Math.E, -d0 * 0.0005) ).rgb();
+      color = d3.hsl((d0)/5.5 % 360, 
+                     Math.pow(Math.E, -d0 * 0.0003),
+                     1 - 0.5 * Math.pow(Math.E, -d0 * 0.0003)).rgb();
 
   image.data[0] = color.r;
   image.data[1] = color.g;
