@@ -53,12 +53,7 @@ header p {
 }
 
 #about a {
-	color: #D9D9D9;
-	text-decoration: none;
-}
-
-#about a:hover {
-	text-decoration: underline;
+	color: #FFF;
 }
 
 header a {
